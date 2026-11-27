@@ -68,3 +68,8 @@ Mods are welcome, but if you find your project overlapping with ours, consider c
 > Do you support older versions of the Game?
 
 No. We only support v1.37.5. Other 1.37 versions may work; but don't count on it.
+
+## Contact
+
+Email: jsb1072@proton.me
+Discord: https://discord.gg/fh3DAm9sW8
