@@ -1,6 +1,6 @@
 # Open EU4
 
-Open EU4 is a community-built interpretation of Europa Universalis IV — our own
+Open EU4 is a community-built interpretation of Europa Universalis IV - our own
 reading of how the game behaves, not its original source code. It runs alongside
 your own copy of eu4 rather than replacing it, and gives players and modders a
 window into what the game is actually doing while it runs.
@@ -13,7 +13,7 @@ us.
 The goal is a foundation the community can keep building on long after official
 support ends: modders get room to add features the game never had, and players
 keep a way to preserve and repair it, including long-standing problems such as
-[long ignored bug-reports](https://forum.paradoxplaza.com/forum/threads/game-crashes-on-macos-after-1-36-kok.1612265)
+[ignored bug-reports](https://forum.paradoxplaza.com/forum/threads/game-crashes-on-macos-after-1-36-kok.1612265)
 that will never be fixed. You paid for this game, and you should be able to keep 
 playing it for as long as you want. That belief is what drives Open EU4.
 
@@ -44,22 +44,27 @@ playing it for as long as you want. That belief is what drives Open EU4.
 1. Clone the repository
 2. cd ./open-eu4
 3. Run:
+	```sh
 	make help			      # Show this command page
 	make APP=/path/to/eu4                 # Build the production library under build/prod/libeu4_override.so
 	make release APP=/path/to/eu4 TAG=v1  # Build and create a local annotated source tag
 
-4. Copy `build/prod/libeu4_override.so` into your game installation folder and follow the setup instructions above.
+5. Copy `build/prod/libeu4_override.so` into your game installation folder and follow the setup instructions above.
 
 ## FAQ:
 
-Can I run this on Windows or Mac?
-- No. We only support Linux at the moment.
+> Can I run this on Windows or Mac?
 
-How can I contribute?
-- Contribution and help is welcome. Reach out directly and we can provide more info.
+No. We only support Linux at the moment.
 
-Can I fork this and make my own changes?
-- Mods are welcome, but if you find your project overlapping with ours, consider contributing instead.
+> Can I contribute?
 
-Do you support older versions of the Game?
-- No. We only support v1.37.5. Other 1.37 versions may work; but don't count on it.
+Contribution and help is welcome. Reach out directly or join our discord for more info.
+
+> Can I fork this and make my own changes?
+
+Mods are welcome, but if you find your project overlapping with ours, consider contributing instead.
+
+> Do you support older versions of the Game?
+
+No. We only support v1.37.5. Other 1.37 versions may work; but don't count on it.
